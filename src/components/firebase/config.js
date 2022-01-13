@@ -1,26 +1,21 @@
-import {
-  firebase
-} from '@firebase/app';
-import '@firebase/firestore'
+// import * as firebase from '@firebase/app';
+// import '@firebase/firestore'
+const {
+  firebase,
+  initializeApp
+} = require('firebase/app').default
 
-// Import the functions you need from the SDKs you need
-// import { initializeApp } from "firebase/app";
-// import { getAnalytics } from "firebase/analytics";
-
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
-
-// Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyDmagQvQsGZ28BWnh22YNwmTVvRBwlznEo",
-  authDomain: "ilosrim.firebaseapp.com",
-  projectId: "ilosrim",
-  storageBucket: "ilosrim.appspot.com",
-  messagingSenderId: "18566296721",
-  appId: "1:18566296721:web:fcd41a9077829596c07b30",
-  measurementId: "G-CCQ1L4X51G"
+  apiKey: "AIzaSyANKoLzkzNKVwsydCPajYhmEyktqjSVd50",
+  authDomain: "portfolio-fcbc0.firebaseapp.com",
+  projectId: "portfolio-fcbc0",
+  storageBucket: "portfolio-fcbc0.appspot.com",
+  messagingSenderId: "927521219670",
+  appId: "1:927521219670:web:0739fd2afb3dc867b6c7f7",
+  measurementId: "G-B30Q63SBFL"
 };
+
 
 // Initialize Firebase
 const app = firebase.initializeApp(firebaseConfig);

@@ -1,0 +1,31 @@
+@import "../Style/style.css";
+
+.navbar {
+  @apply flex justify-between items-center py-6 px-20 text-white;
+}
+.brand {
+  @apply font-bold text-3xl;
+  font-family: "Roboto Mono", monospace;
+}
+.nav {
+  @apply flex items-center font-black;
+}
+.nav li a {
+  position: relative;
+  color: var(--white-color);
+  font-family: "Roboto Mono", monospace;
+  transition: all 0.3s linear;
+}
+.nav li a:hover {
+  color: var(--main-color);
+}
+.navbar.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  width: 100%;
+  backdrop-filter: blur(10px);
+  background-color: #101010cf;
+  box-shadow: 0 5px 15px #0c0c0cde;
+}

@@ -1,0 +1,14 @@
+:root {
+  /* colors */
+  --bg-color: #101010;
+  --white-color: #ffffff;
+  --dark-color: rgba(0, 0, 0, 0);
+  --title-color: #e0e0e0;
+  --main-color: #949494;
+  --home-btn-gray: #2b2b2b;
+  --home-btn-blue: #2e89d3;
+
+  /* fonts familes */
+  --roboto: "Roboto Mono", monospace, sans-serif;
+  --roboto-slab: "Roboto Slab", serif;
+}
